@@ -11,7 +11,7 @@ const handler = async (m, {conn, usedPrefix}) => {
   const document = doc[Math.floor(Math.random() * doc.length)];
   const text = `${tradutor.texto1[0]}`.trim();
   const buttonMessage= {
-    'document': {url: `https://instagram.com/KillzN`},
+    'document': {url: `https://instagram.com/ineffable.mvrco`},
     'mimetype': `application/${document}`,
     'fileName': `${tradutor.texto2[0]}`,
     'fileLength': 99999999999999,
@@ -20,13 +20,13 @@ const handler = async (m, {conn, usedPrefix}) => {
       'forwardingScore': 200,
       'isForwarded': true,
       'externalAdReply': {
-        'mediaUrl': 'https://instagram.com/KillzN',
+        'mediaUrl': 'https://instagram.com/ineffable.mvrco',
         'mediaType': 2,
         'previewType': 'pdf',
         'title': tradutor.texto2[1],
         'body': wm,
         'thumbnail': imagen1,
-        'sourceUrl': 'https://www.youtube.com/channel/UCYh9X3YvgpJLJTb5Z4cE9Ig'}},
+        'sourceUrl': 'https://instagram.com/ineffable.mrvco'}},
     'caption': text,
     'footer': wm,
     // 'buttons':[
